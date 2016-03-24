@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"    
+    android:background="#f0f5fa"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="19">
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="0dp"
+     android:layout_weight="2"
+     android:background="#0F1F2E">
+     <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="本月任务"
+         android:gravity="center"
+         android:textColor="#ffffff"
+         android:textSize="23sp"/>
+ </LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#0F1F2E" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="95"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/s_date"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:background="@drawable/date_btn_hover"
+                android:gravity="center"
+                android:text="2013-4-19"
+                android:textColor="#333333"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="25"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:background="@drawable/to_icon_06" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="95"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/e_date"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:background="@drawable/date_btn_hover"
+                android:gravity="center"
+                android:text="2013-4-19"
+                android:textColor="#333333"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:id="@+id/searchshedule"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="70"
+            android:gravity="center"
+            android:orientation="horizontal"
+          >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="查询"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/sqing"
+                    android:textColor="#E8EEEC"
+                    android:textSize="18.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        
+ <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="#E8EEEC"
+        android:orientation="vertical">
+      <com.ds.lib.ListViewOnNet
+        android:id="@+id/schedulelist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="#E2E4E3"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:scrollingCache="true" >
+    </com.ds.lib.ListViewOnNet>
+       </LinearLayout>
+</LinearLayout>

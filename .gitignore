@@ -1,7 +1,9 @@
 # Built application files
 *.apk
 *.ap_
-
+.idea
+.settings
+gen/
 # Files for the Dalvik VM
 *.dex
 

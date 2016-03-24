@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sp="http://schemas.android.com/apk/res/com.baidu.push.example"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical"
+    tools:context=".LoginActivityNew"
+    android:visibility="gone" 
+    android:id="@+id/loginmain">
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.64" 
+    android:orientation="horizontal" >
+  
+</LinearLayout>
+
+ <LinearLayout
+		       android:layout_width="fill_parent"
+		       android:layout_height="0dp"	
+		       android:layout_weight="3.5"	
+		       android:orientation="vertical"  > 
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="0.12"
+          android:orientation="vertical"
+          android:layout_gravity="center" >
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.41"
+              android:gravity="center"
+              android:text="欢迎使用人防勤务管理系统"
+              android:textColor="#ffffff"
+              android:textSize="18.0dip" />
+
+      </LinearLayout>
+ 
+   <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:weightSum="3"
+              android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:weightSum="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+       <LinearLayout 
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="0.5">
+           
+       </LinearLayout>
+        <LinearLayout 
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="2">
+           <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:gravity="center">
+               <ImageView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/user"/>
+           </LinearLayout>
+       </LinearLayout>
+        <LinearLayout 
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="0.5">
+           
+       </LinearLayout>
+				</LinearLayout>
+
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="0dp"
+		            android:layout_weight="1.85"
+		            android:weightSum="4"
+		            android:orientation="vertical" >
+
+                       <LinearLayout
+                           android:layout_width="fill_parent"
+                           android:layout_height="0dp"
+                           android:layout_weight="0.7"
+                           android:weightSum="5"
+                           android:orientation="horizontal"
+                           android:gravity="center">
+	                           <LinearLayout
+	                           android:layout_width="0dp"
+	                           android:layout_height="wrap_content"
+	                           android:layout_weight="3"
+	                           android:weightSum="3"                                                
+	                           android:gravity="center"
+	                           android:orientation="horizontal" >
+		                            <LinearLayout
+		                                android:layout_width="wrap_content"
+		                                android:layout_height="wrap_content"
+		                                 android:background="@drawable/login"
+		                                android:gravity="center">
+		                                <EditText
+		                                    android:id="@+id/username_edit"
+		                                    android:layout_width="wrap_content"
+		                                    android:layout_height="fill_parent"
+		                                    android:background="@null"
+		                                    android:gravity="center|left"		                                   
+		                                    android:paddingLeft="40dp"
+		                                    android:layout_weight="1.17"
+		                                    android:text=""          
+								            android:hint="请输入姓名"
+							                android:textColor="#000000"/>		                             	                            
+		                            </LinearLayout>		                   
+                  			 </LinearLayout>
+                   </LinearLayout>
+							 <LinearLayout
+                           android:layout_width="fill_parent"
+                           android:layout_height="0dp"
+                           android:layout_weight="0.2"
+                           android:orientation="vertical"
+                           android:gravity="center">
+                           </LinearLayout>
+		      	 		
+		      	 		<LinearLayout
+					            android:layout_width="fill_parent"
+					            android:layout_height="0dp"
+					            android:layout_weight="0.7"
+					            android:weightSum="5"
+                                android:orientation="horizontal"
+					            android:gravity="center">
+                                                  
+                            <LinearLayout
+	                           android:layout_width="0dp"
+	                           android:layout_height="wrap_content"
+	                           android:layout_weight="3"
+	                           android:weightSum="3"                                                
+	                           android:gravity="center"
+	                           android:orientation="horizontal">
+		                            <LinearLayout
+		                                android:layout_width="wrap_content"
+		                                android:layout_height="wrap_content"
+		                                android:gravity="center"
+		                                >
+		                                <Spinner
+		                                    android:id="@+id/department"
+		                                    android:layout_width="220dp"
+		                                    android:layout_height="40dp"
+		                                    android:entries="@array/deparment"
+		                                    android:gravity="center"
+		                                    android:textColor="#000000" 
+		                                    android:paddingLeft="45dp"
+		                                    android:background="@drawable/password" />
+
+		                            </LinearLayout>		                   
+                   </LinearLayout>
+		      	 		</LinearLayout>
+		      	 		 <LinearLayout
+                           android:layout_width="fill_parent"
+                           android:layout_height="0dp"
+                           android:layout_weight="0.1"
+                           android:orientation="vertical"
+                           android:gravity="center">
+                           </LinearLayout>
+		      	 		
+		      	 		<LinearLayout
+					            android:layout_width="fill_parent"
+					            android:layout_height="0dp"
+					            android:layout_weight="0.7"
+					            android:weightSum="5"
+                                android:orientation="horizontal"
+					            android:gravity="center">
+                                                  
+                            <LinearLayout
+	                           android:layout_width="0dp"
+	                           android:layout_height="wrap_content"
+	                           android:layout_weight="3"
+	                           android:weightSum="3"                                                
+	                           android:gravity="center"
+	                           android:orientation="horizontal">
+		                            <LinearLayout
+		                                 android:id="@+id/login_button"
+		                                android:layout_width="wrap_content"		                             
+	                                          android:textColor="#ffffff"
+	                                          android:textSize="15sp"	                                          
+	                                          android:gravity="center"
+	                                          android:orientation="horizontal"
+		                                android:layout_height="wrap_content"
+		                                android:background="@drawable/logintext">		                              
+		                            </LinearLayout>		                   
+                   </LinearLayout>
+		      	 		</LinearLayout>
+		      	 		<LinearLayout
+                           android:layout_width="fill_parent"
+                           android:layout_height="0dp"
+                           android:layout_weight="0.4"
+                           android:weightSum="3"                       
+                           android:gravity="center"
+                           android:orientation="horizontal">
+		      	 			<TextView
+		      	 			    
+		      	 			    android:layout_width="0dp"
+		      	 			    android:layout_height="wrap_content"
+		      	 			    android:layout_weight="1.5"
+		      	 			    android:gravity="right"
+		      	 			 
+		      	 			    android:textColor="#ffffff"
+		      	 			    android:textSize="13sp" />
+                           </LinearLayout>
+                           <LinearLayout
+                           android:layout_width="fill_parent"
+                           android:layout_height="0dp"
+                           android:layout_weight="0.4"
+                           android:weightSum="3"                       
+                           android:gravity="center"
+                           android:orientation="horizontal">
+
+		      	 			<TextView
+		      	 			 
+		      	 			    android:layout_width="0dp"
+		      	 			    android:layout_height="wrap_content"
+		      	 			    android:layout_weight="2"
+		      	 			    android:gravity="right"
+		      	 			    android:text="如有忘记密码，请咨询：管理员"
+		      	 			    android:textColor="#1192cb"
+		      	 			    android:textSize="13sp" />
+                           </LinearLayout>
+		       </LinearLayout>
+          </LinearLayout>     
+ 	</LinearLayout>  
+</LinearLayout>

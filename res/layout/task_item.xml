@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="19" >
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:background="@android:color/white">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            
+        </LinearLayout>
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.3">
+               <LinearLayout 
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:gravity="center">
+                   <ImageView 
+                       android:id="@+id/elart"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                      />
+               </LinearLayout>
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4.5">
+                 <TextView
+			        android:id="@+id/post"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:gravity="center|left"
+			        android:textColor="#000000"
+			        android:layout_marginLeft="5dp"
+			        android:text="岗位"
+			        android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7">
+                
+            </LinearLayout>
+        </LinearLayout>
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+            
+        </LinearLayout>
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="6">
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.3">
+              
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4.5">
+			                  <TextView
+			        android:id="@+id/date"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:gravity="center|left"
+			        android:textColor="#888888"
+			        android:layout_marginLeft="5dp"
+			        android:text="日期"
+			        android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"                   
+                    android:gravity="right">
+                    <ImageView 
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content" 
+			           android:layout_gravity="center"
+			           android:src="@drawable/list_style"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2">
+                </LinearLayout>
+        </LinearLayout>
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.7"
+            android:orientation="horizontal"
+            android:weightSum="6">
+              <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.8">
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4.7">
+                <TextView
+        android:id="@+id/place"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+        android:textColor="#888888"
+        android:text="地点"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:weightSum="6">
+              <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.8">
+                
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4.7">
+                <TextView
+        android:id="@+id/othernote"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+        android:textColor="#888888"
+        android:text="备注"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5">
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11">
+        
+    </LinearLayout>
+ 
+
+</LinearLayout>

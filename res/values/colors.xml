@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff75a6ff</color>
+    <color name="red">#E1423C</color>
+    <color name="translucence">#506050</color>
+    <color name="bg_gray">#e2e2e2</color>
+    <color name="green">#65e17b</color>
+ <color name="background_tab_pressed">#6633B5E5</color>
+ <color name="transparent">#00000000</color>
+    <color name="nickNameColor">#181818</color>
+    <color name="weiboTimeColor">#585858</color>
+    <color name="weiboContentColor">#454545</color>
+    <color name="weiboForwardContentColor">#454545</color>
+    <color name="weiselectorColor">#FFFFFF</color>
+    <color name="listbk">#FFFFFF</color>
+    <color name="CacheColorHint">#00000000</color>
+    <color name="listDivider">#E2E4E3</color>
+    <color name="typeNameColor">#676666</color>
+    <color name="actionTextColor">#4EABD4</color>
+    <color name="brandNameTextColor">#000000</color>
+    <color name="list_head_prompt">#4EABD4</color>
+    <color name="list_head_update_time">#4EABD4</color>
+    <color name="weibolistbg">#FFFFFF</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="describe_text_color">#5B5B5B</color>
+    <color name="home_text_color">#454545</color>
+</resources>
